@@ -9,10 +9,10 @@
 #tag reference: https://mcr.microsoft.com/en-us/product/windows/servercore/insider/tags
 
 #Win10
-#FROM mcr.microsoft.com/windows/servercore/insider:10.0.19035.1
+FROM mcr.microsoft.com/windows/servercore/insider:10.0.19035.1
 
-#Win11
-FROM mcr.microsoft.com/windows/servercore/insider:10.0.26304.5000
+#Win11  https://mcr.microsoft.com/en-us/catalog?page=24
+#FROM mcr.microsoft.com/windows/servercore/insider:10.0.20324.3
 
 #input GitHub runner version argument
 ARG RUNNER_VERSION
